@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@android:color/holo_red_light"
+        android:centerColor="@android:color/holo_purple"
+        android:endColor="@android:color/holo_blue_bright"
+        android:angle="180" />
+
+<!--        android:startColor="#b924ff"
+        android:centerColor="#8A828A"
+        android:endColor="#b924ff"
+        android:angle="360"/> -->
+
+<!--        android:startColor="#1E88E5"
+        android:endColor="@android:color/holo_red_light"
+        android:angle="360"/> -->
+
+<!--        android:startColor="@android:color/holo_purple"
+        android:centerColor="#ffffff"
+        android:endColor="@android:color/holo_purple"
+        android:angle="45" /> -->
+
+    <corners
+        android:radius="360dp"
+        android:bottomRightRadius="180dp"
+        android:topRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:topLeftRadius="180dp" />
+
+</shape>

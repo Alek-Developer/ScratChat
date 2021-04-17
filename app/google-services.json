@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "339139419698",
+    "project_id": "scratchat-40922",
+    "storage_bucket": "scratchat-40922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339139419698:android:4d0d2825c054e1de3d662b",
+        "android_client_info": {
+          "package_name": "com.gsixacademy.android.scratchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339139419698-6s1jt3ese5ol8guvugbl76jt772q46ej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gsixacademy.android.scratchat",
+            "certificate_hash": "975029cf735ffa9f25d4379aa9f2cce4dafae508"
+          }
+        },
+        {
+          "client_id": "339139419698-amn45ihre59mo1lf7pptp2m3o0ap2olu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJXPDM6D1gCmXGlJQA6vNRCRoyTqe0sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339139419698-amn45ihre59mo1lf7pptp2m3o0ap2olu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

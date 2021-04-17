@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    android:background="@drawable/gradient_background"
+    tools:context=".SignInActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signinBtn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/gradient_button_sign_in"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/scrat_logo"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ice_age_scrat"
+        android:layout_marginBottom="225dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nut_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/nut_one"
+        app:layout_constraintBottom_toTopOf="@+id/scrat_logo"
+        app:layout_constraintCircle="@id/scrat_logo"
+        app:layout_constraintCircleRadius="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_two"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_two"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_three"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_two" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_four"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_four"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_three" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_five"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_five"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_four" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_six"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="39dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_six"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_five" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_seven"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="49dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_seven"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_six" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_eight"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_eight"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_seven" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_nine"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_nine"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_eight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_ten"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="85dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_ten"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_nine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_eleven"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="99dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_eleven"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_ten" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_twelve"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="114dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_twelve"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_eleven" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_thirteen"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="130dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_thirteen"
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_twelve" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three_fourteen"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="147dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn">
+
+        <TextView
+            android:id="@+id/text_view_fourteen"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient_text"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_thirteen" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
